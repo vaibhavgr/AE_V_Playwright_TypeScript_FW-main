@@ -8,4 +8,6 @@ test.only('verifyProductPage', async ({ loginPage, registrationPage }) => {
     console.log("login successful");
     console.log("Hey its from main branch");
     console.log("Reject this PR");
+    console.log("login successful")
+    console.log("Hey its from main branch")
 })

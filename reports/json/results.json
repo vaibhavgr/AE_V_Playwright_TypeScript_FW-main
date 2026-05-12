@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "D:\\Automation\\AutomationExercise_Playwright_TypeScript_FW\\playwright.config.ts",
-    "rootDir": "D:/Automation/AutomationExercise_Playwright_TypeScript_FW/tests",
+    "configFile": "G:\\Vaibhav\\AE_V_Playwright_TypeScript_FW-main\\playwright.config.ts",
+    "rootDir": "G:/Vaibhav/AE_V_Playwright_TypeScript_FW-main/tests",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -16,7 +16,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "D:/Automation/AutomationExercise_Playwright_TypeScript_FW/test-results",
+        "outputDir": "G:/Vaibhav/AE_V_Playwright_TypeScript_FW-main/test-results",
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
@@ -24,7 +24,7 @@
         },
         "id": "Web",
         "name": "Web",
-        "testDir": "D:/Automation/AutomationExercise_Playwright_TypeScript_FW/tests",
+        "testDir": "G:/Vaibhav/AE_V_Playwright_TypeScript_FW-main/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -82,23 +82,23 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5242,
+                  "duration": 6753,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T11:12:51.192Z",
+                  "startTime": "2026-05-12T19:15:03.652Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\Automation\\AutomationExercise_Playwright_TypeScript_FW\\test-results\\cartTests-cart-verifyProductPage-Web\\test-finished-1.png"
+                      "path": "G:\\Vaibhav\\AE_V_Playwright_TypeScript_FW-main\\test-results\\cartTests-cart-verifyProductPage-Web\\test-finished-1.png"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "D:\\Automation\\AutomationExercise_Playwright_TypeScript_FW\\test-results\\cartTests-cart-verifyProductPage-Web\\trace.zip"
+                      "path": "G:\\Vaibhav\\AE_V_Playwright_TypeScript_FW-main\\test-results\\cartTests-cart-verifyProductPage-Web\\trace.zip"
                     }
                   ]
                 }
@@ -116,8 +116,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-05-05T11:12:48.268Z",
-    "duration": 9660.711,
+    "startTime": "2026-05-12T19:14:59.086Z",
+    "duration": 14496.541,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

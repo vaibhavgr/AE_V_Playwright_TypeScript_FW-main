@@ -6,4 +6,5 @@ test.only('verifyProductPage', async ({ loginPage, registrationPage }) => {
     await registrationPage.goto();
     await loginPage.verifyUserLogin(existingUser.existingEmail, existingUser.existingPassword);
     console.log("login successful")
+    console.log("Hey its from main branch")
 })

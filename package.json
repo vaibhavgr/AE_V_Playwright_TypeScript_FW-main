@@ -1,0 +1,25 @@
+{
+  "name": "automationexercise_playwright_typescript_fw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "cross-env ENV=dev npx playwright test",
+    "test:qa": "cross-env ENV=qa npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "allure-playwright": "^3.7.1",
+    "dotenv": "^17.4.2",
+    "faker": "^5.5.3"
+  }
+}

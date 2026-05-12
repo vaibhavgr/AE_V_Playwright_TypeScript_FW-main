@@ -1,0 +1,8 @@
+import { test } from '../../fixtures/baseTest';
+import { existingUserEmail } from '../../test-data/userData';
+
+test.only('verifyProductPage', async ({ loginPage, registrationPage }) => {
+    const existingUser = existingUserEmail();
+    await registrationPage.goto();
+    await loginPage.verifyUserLogin(existingUser.existingEmail, existingUser.existingPassword);
+})
